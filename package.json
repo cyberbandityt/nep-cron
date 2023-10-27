@@ -1,0 +1,11 @@
+{
+  "name": "nep-cron",
+  "version": "1.0.0",
+  "description": "Use cron job but with Nepali date. Easy to schedule cron jobs in Nepali time!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aayush Poudel(cyberbandit)",
+  "license": "ISC"
+}
