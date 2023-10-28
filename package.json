@@ -1,11 +1,25 @@
 {
   "name": "nep-cron",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use cron job but with Nepali date. Easy to schedule cron jobs in Nepali time!",
   "main": "index.js",
+  "repository": "https://github.com/cyberbandityt/nep-cron",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aayush Poudel(cyberbandit)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@sbmdkl/nepali-date-converter": "^2.0.2",
+    "node-cron-tz": "^2.0.4"
+  },
+  "keywords": [
+    "Nepali Time",
+    "nepali-date",
+    "scheduler",
+    "node-cron",
+    "Cron job",
+    "Nep-cron",
+    "Nepali Scheduler"
+  ]
 }
