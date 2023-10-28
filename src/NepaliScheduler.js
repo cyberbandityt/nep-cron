@@ -12,7 +12,6 @@ class NepaliScheduler {
             const timezone = 'Asia/Kathmandu';
 
             const cronExpression = `${minutes} ${hours} ${day} ${month} *`;
-            console.log(cronExpression)
             cron.schedule(cronExpression, task, { timezone });
         }
 

@@ -1,6 +1,6 @@
 {
   "name": "nep-cron",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Use cron job but with Nepali date. Easy to schedule cron jobs in Nepali time!",
   "main": "index.js",
   "repository": "https://github.com/cyberbandityt/nep-cron",
