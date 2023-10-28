@@ -37,5 +37,19 @@ This package relies on 2 packages:
 - [nepali-date-converter](https://www.npmjs.com/package/@sbmdkl/nepali-date-converter) for converting date.
 
 ## Contributing
+Contributions to the Nep-cron are welcome! If you would like to contribute, please follow these guidelines:
 
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and write tests if applicable.
+4. Ensure all tests pass.
+5. Create a pull request to the main repository.
 
+## License
+This package is distributed under the [ISC License](https://github.com/cyberbandityt/nep-cron/blob/main/License.txt). Feel free to use and modify it as needed.
+
+## Contact
+If you have any questions, issues, or suggestions, you can contact us at whois@poudel-aayush.com.np
+
+----------------------------------
+Happy scheduling in Nepali dates and times!
