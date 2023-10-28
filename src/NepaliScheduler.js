@@ -2,13 +2,10 @@ const cron = require('node-cron-tz')
 const { bsToAd } = require('@sbmdkl/nepali-date-converter')
 
 class NepaliScheduler {
-    constructor() {
-        this.convertBsToAd = new bsToAd();
-    }
 
     scheduleNepaliDateJob(nepaliDate, time, task) {
         try {
-            const englishDate = this.converter(nepaliDate);
+            const englishDate = bsToAd(nepaliDate);
             const [year, month, day] = englishDate.split('-');
             const [hours, minutes] = time.split(':');
 
